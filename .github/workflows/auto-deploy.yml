@@ -1,11 +1,11 @@
-name: Redeploy Choreo
+#name: Redeploy Choreo
 
-on:
+#on:
   workflow_dispatch:
   schedule:
     - cron: '0 */3 * * *'
 
-jobs:
+#jobs:
   Redeploy:
     name: Redeploy Choreo
 
